@@ -1,6 +1,6 @@
 package src.um;
 
-public class Segunda{
+public class Segunda {
 
     private void metodoPrivado() {
         Primeiro primeiro = new Primeiro();
@@ -8,5 +8,9 @@ public class Segunda{
         primeiro.metodoPrivado();
         primeiro.metodoProtected();
         primeiro.metodoDefault();
+
+        primeiro.metodoEstatico(); //nao conseguimos acessar deste modo
+        Primeiro.metodoEstatico(); //conseguimos acessar o metodo Estatico utilizando a Classe que ela pertence
+
     }
 }
