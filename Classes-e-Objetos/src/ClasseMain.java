@@ -5,7 +5,7 @@ import src.um.Primeiro;
 public class ClasseMain {
 
     public static void main(String... args) {
-        Primeiro primeiro = new Primeiro();
+/*        Primeiro primeiro = new Primeiro();
         Primeiro outraClasse = new Primeiro();
 //        primeiro.metodoPublico();
 //        primeiro.metodoPublico();
@@ -14,6 +14,9 @@ public class ClasseMain {
 //        primeiro.alteraVariavel();
         outraClasse.alteraVariavel();
 
-        primeiro.metodoPublico();
+        primeiro.metodoPublico();*/
+
+        Carro carro = new Carro();
+        carro.setCor(Carro.VERMELHO);
     }
 }

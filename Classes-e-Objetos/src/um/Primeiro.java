@@ -9,7 +9,7 @@ public class Primeiro {
 //statica = que podemos acessar de qualquer lugar sem precisar estanciar
 //Integer = tipo
 //Constantes criamos com letra maiuscula. para diferenciar das demais.Pois elas nao sao alteraveis
-//
+
     public final static Integer CONSTANTE = 10;
 
     private Integer escopoClasse = 1;
