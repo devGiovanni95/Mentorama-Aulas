@@ -17,7 +17,7 @@ public class ClasseMain {
         primeiro.metodoPublico();*/
 
         Carro carro = new Carro(4);  //depois que criamos um construtor na classe publica do carro somos obrigados a declarar no caso a quantidade de pneus que o carro tem
-        carro.setCor(Carro.VERMELHO);
+        carro.setCor("Cor do carro " + Carro.VERMELHO);
 
         carro.imprimeValores();
     }
