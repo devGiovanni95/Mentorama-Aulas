@@ -2,30 +2,16 @@ package src.um;
 
 public class Variavel3 {
     public static void main(String[] args) {
-        int valor1 = 12;
-        /*
-        para fazer a conversão basta criar uma outra variavel e declarar o o nome da variavel anterior
-        como faremos a seguir, salvo quando é um valor inteiro para um valor long
-         */
+        char vetores[] = {'M', 'e', 'n'};
+        String texto = String.valueOf(vetores);
+        System.out.println(texto);
 
-        long valorLong = valor1;
+        long longConvertido = 12;
+        String valor = String.valueOf(longConvertido);
+        System.out.println(valor);
 
-        System.out.println(valorLong);
-/*
-quando tentamos converter um valor long para inteiro ja fica um pouco mais dificil
- */
-      //  int valorInt = valorLong;
+        Double valorDouble = Double.valueOf(valor); //tomar cuidado para nao converter texto e valor doule para nao dar erro no codigo
 
-        int valorInt = (int)valorLong;
-        System.out.println(valorInt);
-
-        double valorDouble = valorInt;
         System.out.println(valorDouble);
-
-        long outroLong = (long)valorDouble;
-        System.out.println(outroLong);
-
-
-
     }
 }
