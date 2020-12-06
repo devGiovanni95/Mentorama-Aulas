@@ -12,5 +12,17 @@ public class ColecoesArray {
         for (int i = 0; i < valores.length; i++) {
             System.out.println(valores[i]);
         }
+
+        int[] valoresReversos = new int[valores.length];
+        int posicaoMaxima = valores.length - 1;
+        for (int i = posicaoMaxima; i >= 0 ; i --) {
+//            System.out.println(valores[i]);
+            valoresReversos[posicaoMaxima - i] = valores[i];
+        }
+
+        for (int i = 0; i < valoresReversos.length; i++) {
+            System.out.println(valoresReversos[i]);
+        }
+
     }
 }
