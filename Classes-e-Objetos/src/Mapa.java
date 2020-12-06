@@ -1,4 +1,4 @@
-package src.um;
+package src;
 
 public class Mapa {
 }
